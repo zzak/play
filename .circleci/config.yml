@@ -1,0 +1,6 @@
+jobs:
+  build:
+    docker:
+      image: bash
+    steps:
+      - run: echo hello world
